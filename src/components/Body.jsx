@@ -62,12 +62,12 @@ function Body() {
           </div>
 
           <p className="mt-5 w-full pl-11 text-2xl font-bold">My Todos :-</p>
-          <div className="mt-3 mb-4 h-[80%] w-[95%] overflow-auto">
+          <div className="mt-3 mb-4 h-[80%] w-[95%] overflow-auto ">
             <div className="border-2 min-h-0 w-[95%] bg-slate-200 rounded-xl mt-4 flex items-center flex-col">
               {/* new entry */}
               <ul
                 id="collection"
-                className="flex flex-col mt-8 min-h-16 w-[95%] overflow-auto"
+                className="flex flex-col mt-8 min-h-0 w-[95%] overflow-auto"
               >
                 {/* todos will lie here */}
 
